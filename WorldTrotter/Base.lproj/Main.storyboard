@@ -46,7 +46,7 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="fahrenheitFieldEditingChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="MbC-8B-ewM"/>
-                                    <outlet property="delegate" destination="8bC-Xf-vdC" id="nfp-nY-QD8"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="lqe-Wf-MJB"/>
                                 </connections>
                             </textField>
                         </subviews>
@@ -75,7 +75,7 @@
                     <tabBarItem key="tabBarItem" title="Convert" image="ConvertIcon" id="5Ji-gA-V1P"/>
                     <connections>
                         <outlet property="celsiusLabel" destination="Qpv-kI-sVE" id="idH-4j-CD1"/>
-                        <outlet property="textField" destination="SEm-ce-soU" id="Yw3-dn-VfW"/>
+                        <outlet property="textField" destination="SEm-ce-soU" id="rMO-Lp-d1h"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
