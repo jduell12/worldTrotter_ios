@@ -15,31 +15,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="noG-eW-VEY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="noG-eW-VEY">
                                 <rect key="frame" x="59.5" y="145.5" width="295" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is really" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R7R-1t-8MH">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is really" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R7R-1t-8MH">
                                 <rect key="frame" x="150" y="196.5" width="114" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qpv-kI-sVE">
-                                <rect key="frame" x="148.5" y="247.5" width="117" height="84"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qpv-kI-sVE">
+                                <rect key="frame" x="149" y="247.5" width="116.5" height="84"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Celsius" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTX-gb-mtw">
-                                <rect key="frame" x="84" y="339.5" width="246" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Celsius" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTX-gb-mtw">
+                                <rect key="frame" x="84.5" y="339.5" width="245.5" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="value" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SEm-ce-soU">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="value" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SEm-ce-soU">
                                 <rect key="frame" x="129" y="52" width="156" height="85.5"/>
                                 <color key="textColor" red="0.88235294119999996" green="0.34509803919999998" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
@@ -55,10 +55,13 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="R7R-1t-8MH" firstAttribute="centerX" secondItem="noG-eW-VEY" secondAttribute="centerX" id="4pX-1I-QLB"/>
+                            <constraint firstItem="MTX-gb-mtw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8h7-iv-fyh"/>
                             <constraint firstItem="noG-eW-VEY" firstAttribute="top" secondItem="SEm-ce-soU" secondAttribute="bottom" constant="8" id="KDH-kK-Nzf"/>
                             <constraint firstItem="SEm-ce-soU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NhI-Uv-siw"/>
+                            <constraint firstItem="R7R-1t-8MH" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="NqD-ef-zNQ"/>
                             <constraint firstItem="MTX-gb-mtw" firstAttribute="centerX" secondItem="noG-eW-VEY" secondAttribute="centerX" id="Ntk-3l-Zih"/>
                             <constraint firstItem="Qpv-kI-sVE" firstAttribute="centerX" secondItem="noG-eW-VEY" secondAttribute="centerX" id="Rzr-pw-08H"/>
+                            <constraint firstItem="noG-eW-VEY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="USN-E0-LSp"/>
                             <constraint firstItem="MTX-gb-mtw" firstAttribute="top" secondItem="Qpv-kI-sVE" secondAttribute="bottom" constant="8" id="XiI-SZ-8pv"/>
                             <constraint firstItem="Qpv-kI-sVE" firstAttribute="top" secondItem="R7R-1t-8MH" secondAttribute="bottom" constant="8" id="Zvf-Re-O69"/>
                             <constraint firstItem="R7R-1t-8MH" firstAttribute="top" secondItem="noG-eW-VEY" secondAttribute="bottom" constant="8" id="cpY-A0-wdq"/>
@@ -67,6 +70,8 @@
                             <constraint firstItem="Qpv-kI-sVE" firstAttribute="centerX" secondItem="noG-eW-VEY" secondAttribute="centerX" id="hFj-49-Pm6"/>
                             <constraint firstItem="MTX-gb-mtw" firstAttribute="centerX" secondItem="noG-eW-VEY" secondAttribute="centerX" id="jdx-8I-VmM"/>
                             <constraint firstItem="R7R-1t-8MH" firstAttribute="centerX" secondItem="noG-eW-VEY" secondAttribute="centerX" id="jiz-wK-MHg"/>
+                            <constraint firstItem="Qpv-kI-sVE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="kRh-wr-o8y"/>
+                            <constraint firstItem="SEm-ce-soU" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="129" id="yuZ-3E-Xcj"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="elq-z6-MJS" appends="YES" id="jeJ-Ib-PSI"/>
